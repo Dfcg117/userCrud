@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer components {
+  .label {
+display: flex;
+flex-direction: column;
+font-weight: 600;
+  }
+
+  .input {
+    border: 1px solid #cbd5e0; /* border-gray-400 */
+    font-weight: 400; /* font-normal */
+  }
+
+  .btn {
+    @apply border px-5 py-1 rounded bg-gray-200 cursor-pointer transition-colors ease-in-out duration-300
+  }
+}
